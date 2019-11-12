@@ -1,0 +1,49 @@
+
+html,body,div,h1,h2,p,ul,section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+html {
+  line-height: 1;
+}
+
+body {
+  background:lightseagreen;
+  padding: 10px 0 0;
+}
+
+h1,h2 {
+  font-size: 2.4em;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #384047;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.8em;
+  text-align:center;
+}
+
+p {
+  color:black;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+  margin-top:15px;
+  line-height: 1.4;
+  text-align:center;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 1080px;
+  background:rgb(110, 186, 189);
+  padding: 30px 15px;
+  margin: auto;
+  border-radius: 5px;
+  border-color:black;
+}
